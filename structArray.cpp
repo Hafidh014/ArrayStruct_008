@@ -14,8 +14,7 @@ struct orang {
 
 int main() {
 
-    for  (int i = 0; i <= 2; i++) {
-        cout << "Data ke - " << i + 1 << endl;
+    for  (int i = 0; i <= 2; i++){
     }
     orang mhs;
     cout << "Nama Mahasiswa : ";
@@ -32,8 +31,12 @@ int main() {
     cout << endl;
     cin.ignore();
 
-    cout << "Nama : " << mhs.nama << endl;
-    cout << "Desa : " << mhs.alamat.desa << endl;
-    cout << "Kota : " << mhs.alamat.kota << endl;
-    cout << "Umur : " << mhs.umur << endl;
+    for (int i = 0; i <= 2; i++)
+
+    {
+        cout << "Nama : " << mhs.nama << endl;
+        cout << "Desa : " << mhs.alamat.desa << endl;
+        cout << "Kota : " << mhs.alamat.kota << endl;
+        cout << "Umur : " << mhs.umur << endl;
+    }
 }
