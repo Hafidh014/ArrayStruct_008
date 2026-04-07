@@ -7,4 +7,7 @@ int main(){
     int datamu[5];
     int x;
 
+    cout << "data ke -3 : " << dataku[2] << endl;
+    
+    
 }
